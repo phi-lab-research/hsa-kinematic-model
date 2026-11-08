@@ -5,7 +5,7 @@ the shape of the rods making up HSA robots.
 This model allows us to keep the twist and axial strains constant throughout the robot, while the bending and shear strains 
 vary piecewise.
 
-A JAX implementation of SPCS can be found [here](https://github.com/tud-cor-sr/jax-spcs-kinematics) and is used in the scripts of this repository.
+A JAX implementation of SPCS can be found [here](https://github.com/phi-lab-research/jax-spcs-kinematics) and is used in the scripts of this repository.
 
 ## Citation
 
@@ -38,8 +38,8 @@ pip install -r requirements.txt
 
 You might also be interested in the following repositories:
 
- - The [`jax-spcs-kinematics`](https://github.com/tud-phi/jax-spcs-kinematics) repository contains an implementation
+ - The [`jax-spcs-kinematics`](https://github.com/phi-lab-research/jax-spcs-kinematics) repository contains an implementation
  of the Selective Piecewise Constant Strain (SPCS) kinematics in JAX. We have shown in our paper that this kinematic 
 model is suitable for representing the shape of HSA rods.
- - The [`HSA-PyElastica`](https://github.com/tud-phi/HSA-PyElastica) repository contains a plugin for PyElastica
+ - The [`HSA-PyElastica`](https://github.com/phi-lab-research/HSA-PyElastica) repository contains a plugin for PyElastica
 for the simulation of HSA robots.
